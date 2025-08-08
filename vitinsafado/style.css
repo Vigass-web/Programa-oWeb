@@ -1,0 +1,155 @@
+.Jado{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.head a{
+text-decoration: none;
+color: black;
+display: flex;
+}
+.header{
+    
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 200px;
+    transform: translate(130px,-70px);
+}
+.Sign{
+    background:none;
+    border-radius: 4px;
+    border-width: 1px;
+}
+.secao1{
+    font-size: 40px;
+    margin-left: 100px;
+}
+.bst{
+    color: #D2691E;
+    margin-left: 0px;
+    text-transform: uppercase;
+    transform: translate(0px,30px);
+    font-size: 18px;
+}
+.textinho{.Jado{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.head a{
+text-decoration: none;
+color: black;
+display: flex;
+}
+.header{
+    
+    list-style: none;
+    display: flex;
+    gap: 50px;.Jado{
+    color:black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+.head a{
+text-decoration: none;
+color: black;
+display: flex;
+}
+.header{
+    
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 200px;
+    transform: translate(130px,-70px);
+}
+.Sign{
+    justify-content: center;
+    margin-left: 200px;
+    transform: translate(130px,-70px);
+}
+.Sign{
+    font-size: 15px;
+    font-weight: bold;
+    transform: translate(0px,-20px);
+    color: #181e4b;
+}
+h1{
+    color: #181e4b;
+    font-size: 80px;
+}
+.butao1{
+ background-color: #ffae00;
+ border-radius: 5px;
+ border: 1px solid #ffae00;
+ border-width: 10px;
+ transform: translate(0px, -30px);
+}
+.play{
+    transform: translate(0,-22px);
+    color: transparent;
+    background-color: #e06b57;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    border: 5px solid white;
+}
+.textplay{
+    transform: translate(179px,-90px);
+    font-size: 15px;
+    color: #71737e;
+}
+.butao1 a{
+    text-decoration: none;
+    color: white;
+    text-shadow:0 0 8px white;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    color: #71737e;
+    transform: translate(0px,-600px);
+}
+.category2{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    transform: translate(0,-635px);
+}
+.cate2{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    list-style: none;
+    transform: translate(0px,-550px);
+}
+.mulher{
+    transform: translate(650px,-680px);
+    width: 700px;
+}
+.caixa1{
+background-color:#71737e
+}
+.caixa2{
+    background-color: #71737e;
+}
+.caixa3{
+    background-color: #71737e;
+}
+.caixa4{
+    background-color: #71737e;
+}
+.Top{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    transform: translate(0px,-500px);
+    color: #71737e;
+}
