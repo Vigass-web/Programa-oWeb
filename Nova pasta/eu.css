@@ -1,0 +1,7 @@
+#game{
+    width: 800px;
+    height: 800px;
+    background-image: url('gba.png');
+    background-size: cover;
+
+}
