@@ -1,0 +1,43 @@
+#selecao-personagem {
+  position: relative;
+  background-image: url('desktop-wallpaper-the-pokemon-world-rp-pokemon-forest-background.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding-top: 50px;
+  height: 100vh;
+}
+
+.personagens {
+  
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.card-personagem {
+  width: 150px;  /* ajuste para o tamanho que desejar */
+  height: 150px;  /* mantém a proporção original */
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: border 0.3s, transform 0.2s;
+}
+
+.card-personagem:hover {
+  border: 3px solid yellow;
+  transform: scale(1.05);
+}
+
+#jogo {
+  background-image: url('98c15a449a1166ec23f5c9f1f63995dd.jpg'); /* caminho da sua imagem */
+  background-size: cover;       /* cobre toda a área */
+  background-position: center;  /* centraliza a imagem */
+  background-repeat: no-repeat; /* não repete */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;                /* ocupa a tela inteira */
+}
+
+

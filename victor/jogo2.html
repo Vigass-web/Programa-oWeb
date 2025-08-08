@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="jogo.js"></script>
+  <link rel="stylesheet" href="jopo.css">
+  <title>POKE SNIPER</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .tela-inicial {
+      background-image: url('e97aabd4f7c8303ddcdedef8f1c0fa0a.jpg'); 
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: start;
+      justify-content: center;
+      text-align: center;
+      color: white;
+    }
+
+    h1 {
+      
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+    
+    p {
+      animation: piscar 2s infinite;
+      font-size: 50px;
+      display: flex;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+    @keyframes piscar {
+      0% { opacity: 1; }
+      50% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <div id="tela-inicial" class="tela-inicial">
+    <div class="conteudo">
+      <h1>Sniper Poké</h1>
+      <p>Press [Space] to Start</p>
+    </div>
+  </div>
+  <div id="selecao-personagem" style="display: none;">
+  <h2>Escolha seu personagem</h2>
+  <div class="personagens">
+    <img src="new_grass_pokemon_grookey_pixel_art_by_hephaestu5_dd0wz5f-fullview-removebg-preview.png" alt="Personagem 1" data-personagem="char1" class="card-personagem">
+    <img src="022_Leafeon.webp" alt="Personagem 2" data-personagem="char2" class="card-personagem">
+    <img src="226_Bulbasaur-removebg-preview.png" alt="Personagem 3" data-personagem="char3" class="card-personagem">
+</div>
+</div>
+<div id="jogo" style="display: none;">
+  <canvas id="canvas-jogo" width="800" height="600"></canvas>
+</div>
+</body>
+</html>
